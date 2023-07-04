@@ -6,6 +6,7 @@
   --border-menu-mobile: #A8A8B3;
   --text-color-menu-mobile: #E1E1E6;
 }
+
 body{
   
   width: 1920px;
@@ -13,13 +14,16 @@ body{
   background:#000;
   text-align: center;
   align-items: center;
-  display: block;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   background-image: url(./Blur\ Right.png), url(./Blur\ Left.png);
   background-repeat: no-repeat;
   background-position-x: right, left;
   background-position-y: top, bottom;
   flex-shrink: 0;
   padding-top: 10px;
+  padding-bottom: 0;
  
   
 
@@ -37,6 +41,7 @@ header {
   
   
 }
+
 h1 {
   
   color: #FFF;
@@ -44,7 +49,10 @@ h1 {
   font-size: 80px;
   font-family: Manrope;
   font-weight: 700;
+  font-style: normal;
   letter-spacing: -2.4px;
+  line-height: normal;
+  
  
   
   
@@ -54,9 +62,12 @@ h2 {
   font-size: 80px;
   font-family: Manrope;
   font-weight: 700;
+  font-style: normal;
   letter-spacing: -2.4px;
   text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
   color:#000;
+  line-height: 0;
+  
   
 
 }
@@ -71,7 +82,7 @@ p2 button {
     font-family: Manrope;
     font-weight: 500;
     letter-spacing: 0.28px;
-    display: inline-flex;
+    display: inline;
     text-align: center;
     cursor: pointer;
   }
@@ -160,6 +171,7 @@ p8 {
   width: 798.783px;
 height: 506.471px;
 flex-shrink: 0;
+line-height: 0;
 }
 
 
